@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Викторина по информационной безопасности</title>
+</head>
+<body>
+    <header>
+        Безопасный интернет
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Как работают мошенники и спамеры</a></li>
+                <li><a href="index1.html">способы заработка в интернете</a></li>
+                <li><a href="services.html">Опрос на знание темы</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+<h1>Викторина по интернет безопасности</h1>
+<div class="container">
+    
+    <div id="quiz">
+        <div id="question"></div>
+        <ul id="options"></ul>
+        <button id="nextBtn" disabled>Следующий вопрос</button>
+    </div>
+    <div id="result" style="display:none;">
+        <h2>Поздравляем! Вы завершили тест.</h2>
+        <p>Ваш результат: <span id="finalScore"></span>/<span id="totalQuestions"></span></p>
+        <button onclick="restartQuiz()">Начать заново</button>
+    </div>
+</div>
+
+    <footer>
+        
+    </footer>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+</body>
+</html>
